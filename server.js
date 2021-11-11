@@ -14,9 +14,10 @@ app.use(express.json({ extended: false }));
 app.use("/api/tasks", require("./routes/tasks"));
 app.use("/api/users", require("./routes/users"));
 app.use("/api/auth", require("./routes/auth"));
+app.use("/api/profile", require("./routes/profile"));
 
-app.get('/', (req, res) => res.send({ message: 'Hello to the taskBucket' }))
+// app.get('/', (req, res) => res.send({ message: 'Hello to the taskBucket' }))
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 4000
 
 app.listen(PORT, () => console.log(`Server started at port ${PORT}`))

@@ -51,7 +51,7 @@ router.post(
       const payload = {
         user: {
           id: user.id,
-        },
+        }
       }
 
       jwt.sign(
