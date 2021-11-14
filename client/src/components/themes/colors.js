@@ -9,6 +9,9 @@ export const theme = {
     lightd: "#EFF1F4",
     red: "#C52828",
     green: "#0F783C",
-    orange: "#F2C94C"
+    orange: "#F2C94C",
+    grey: "#F0F2F5",
+    lead: "rgb(144, 149, 157)",
+    navcolor: "#F8F8F8"
   },
 }
